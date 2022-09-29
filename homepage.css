@@ -44,25 +44,3 @@ body {
  #img1 {
     width: 30%;
 }
-#box3{
-    width: 20%;
-    color:grey;
-    
-}
-#box3>p{
-    font-size: 20px;
-}
-#box3>img{
-    width: 40px;
-  
-}
-
-#container{
-    border: 0px solid red;
-    width: 50%;
-    margin: auto;
-    margin-top: 30px;
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-}
