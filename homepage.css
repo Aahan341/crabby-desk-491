@@ -1,46 +1,55 @@
-* {
-    margin: 0px;
-    padding: 0px;
-
-}
-
-body {
-    background-color: #eeeeea;
-}
 
 
-#startingpara {
+#firstbox{
+    
+    border: 2px solid red;
+    margin:auto;
     width: 100%;
-    height: 50px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #437111;
-    color: white;
-
+   
+}
+#firstboximage{
+    width: 100%;
 }
 
-#navbar {
-    background-color: #eeeeea;
-    border: 0px solid red;
-    display: flex;
-    justify-content: space-between;
+#secondboxheading{
+    border: 1px solid red;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+    line-height: 1.18;
+    text-transform: uppercase;
+}
+#secondboxheading>h1{
+    font-family: cursive;
+    letter-spacing: .04em;
+}
+
+
+.recommendbox{
+    border: 1px solid red;
     width: 90%;
-    height: 70px;
     margin: auto;
-    position: sticky;
+    margin-top: 30px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 30px;
+  
 }
-
-#navbar>div {
-    display: flex;
-    border: 0px solid red;
-    width: 30%;
-    justify-content: space-evenly;
-    align-items: center;
+.recommendbox>div{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #222;
+    font-weight: 400;
+    letter-spacing: .04em;
 
 }
-
- #img1 {
-    width: 30%;
+.recommendbox>div>h3{
+    font-family: cursive;
+}
+.recommendbox>div>img{
+    width: 100%;
+    border-radius: 20px;
 }
