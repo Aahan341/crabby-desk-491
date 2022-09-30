@@ -1,20 +1,20 @@
-
 /* home page first box  */
 
-#firstbox{
-    
+#firstbox {
+
     border: 0px solid red;
-    margin:auto;
+    margin: auto;
     width: 100%;
-   
+
 }
-#firstboximage{
+
+#firstboximage {
     width: 100%;
 }
 
 /* second box heading  */
 
-#secondboxheading{
+#secondboxheading {
     border: 0px solid red;
     margin-top: 30px;
     text-align: center;
@@ -24,124 +24,137 @@
     line-height: 1.18;
     text-transform: uppercase;
 }
-#secondboxheading>h1{
+
+#secondboxheading>h1 {
     font-family: cursive;
     letter-spacing: .04em;
 }
 
 /* class recommendbox  */
-.recommendbox{
+.recommendbox {
     border: 0px solid red;
     width: 90%;
     margin: auto;
     margin-top: 30px;
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-  
+
 }
-.recommendbox>div{
+
+.recommendbox>div {
     width: 80%;
     margin: auto;
     margin-top: 20px;
-    padding: 20px ;
+    padding: 20px;
     text-align: center;
     color: #222;
     font-size: 20px;
     font-weight: 400;
     letter-spacing: .04em;
-    box-shadow:  #eeeeea;
+    box-shadow: #eeeeea;
 
 }
-.recommendbox>div>h3{
+
+.recommendbox>div>h3 {
     font-family: cursive;
 }
-.recommendbox>div>img{
+
+.recommendbox>div>img {
     width: 100%;
     border-radius: 20px;
 }
-.recommendbox>div>h3{
+
+.recommendbox>div>h3 {
     margin-top: 10px;
 }
-.recommendbox>div>button{
+
+.recommendbox>div>button {
     margin-top: 20px;
-    border: 10px  ;
+    border: 10px;
     border-radius: 10px;
     background: #cd171f;
     color: white;
     font-size: 15px;
     padding: 15px 37px;
-    
+
 }
+
 /* id  recommendbox */
 
-#recommendbox{
+#recommendbox {
     border: 0px solid red;
     width: 60%;
     margin: auto;
     margin-top: 30px;
-   display: flex;
+    display: flex;
     gap: 30px;
 }
-#recommendbox>div{
+
+#recommendbox>div {
     width: 100%;
     margin: auto;
     margin-top: 40px;
-    padding: 20px ;
+    padding: 20px;
     text-align: center;
     color: #222;
     font-size: 20px;
     font-weight: 400;
     letter-spacing: .04em;
-    box-shadow:  #eeeeea;
+    box-shadow: #eeeeea;
 }
-#recommendbox>div>h3{
+
+#recommendbox>div>h3 {
     font-family: cursive;
 }
-#recommendbox>div>img{
+
+#recommendbox>div>img {
     width: 100%;
     border-radius: 20px;
 }
-#recommendbox>div>h3{
+
+#recommendbox>div>h3 {
     margin-top: 10px;
 }
-#recommendbox>div>button{
+
+#recommendbox>div>button {
     margin-top: 20px;
-    border: 10px  ;
+    border: 10px;
     border-radius: 10px;
     background: #cd171f;
     color: white;
     font-size: 15px;
     padding: 15px 37px;
-    
+
 }
 
 /* after recommand */
 
-#afterrecommend{
+#afterrecommend {
     width: 100%;
-    border: 1px solid red;
+    border: 0px solid red;
     display: flex;
     margin: auto;
     margin-top: 30px;
-    background-color: #7c9b89;
-    
+    background-color: #90b06e;
+
 }
-#afterrecommend>div{
-    width:90%;
+
+#afterrecommend>div {
+    width: 90%;
     margin: auto;
     z-index: 2;
 
 }
 
 
-#afterrecmmondimg2{
+#afterrecmmondimg2 {
     width: 100%;
     border-radius: 25px;
 }
 
 /* hedaingjourney */
-#headingjourney{
+/* #headingjourney {
     margin: auto;
     text-align: center;
     margin-top: 40px;
@@ -153,19 +166,117 @@
     line-height: 1.3;
 }
 
-#journeyimg{
-    border: 1px solid red;
+#journeyimg {
+    border: 0px solid red;
     width: 100%;
     display: flex;
     margin: auto;
     flex-direction: row-reverse;
     align-items: center;
-   
+
+} */
+
+#journeyimg>img {
+    width: 40%;
+    border-radius: 15px;
+
 }
 
-#journeyimg>img{
-    width:40%;
- border-radius: 15px;
+/* jazz heading start  */
+#jazzbox{
+    background-image: #d7af2b;
+}
+#spanjazz {
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 0.25em;
+    color: #1b1919;
+    font-family: cursive;
+    font-size: 2.2em;
+    font-weight: 400;
+    letter-spacing: .04em;
+    line-height: 1.18;
+    text-transform: uppercase;
+  
+}
 
+
+#jazzimg{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+}
+#jazzimg>img{
+    width: 45%;
+    height: 400px;
+    margin: auto;
+    border-radius: 70px;
+    padding: 40px;
+}
+/* psstheading */
+
+#psstheading{
+    text-align: center;
+    margin-top:40px;
+    margin-bottom: 0.25em;
+    color: #222;
+    font-family: Bitterbrush;
+    font-size: 2.2em;
+    font-weight: 400;
+    letter-spacing: .04em;
+    line-height: 1.18;
+    text-transform: uppercase;
+}
+
+#psstimagebox{
+    border: 0px solid red;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+#psstimagebox>img{
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+}
+
+/* footerhere */
+
+footer{
+   display: flex;
+    width:100%;
+    height: 200px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    background-color: #90b06e;
+}
+#footerfirstbox{
+
+width: 50%;
+margin: auto;
+padding-left: 80px;
+font-size: 20px;
+}
+#footer2box{
+    width: 50%;
+    margin-top: 50px;
+   
+}
+#spanfooter{
+   width: 90%;
+   margin: auto;
+    text-align: start;
+    background-color: #90b06e;
 }
 
