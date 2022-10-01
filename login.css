@@ -1,0 +1,134 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 1000vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4070f4;
+}
+
+.container{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.container .forms{
+    width: 200%;
+    height: 440px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+   
+}
+.container .form{
+    padding: 30px;
+    width: 50%;
+    
+    
+}
+
+.container .form .title{
+    position: relative;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.form .title::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 30px;
+}
+
+.form .input-field{
+    position: relative;
+    height: 50px;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.input-field input{
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+}
+
+.input-field i{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 23px;
+
+}
+
+.form .checkbox{
+    margin-top: 20px;
+    
+    
+}
+.form .text{
+    color: #4070f4;
+}
+
+.checkbox a{
+    text-decoration: none;
+    
+
+}
+.checkbox a:hover{
+    text-decoration: underline;
+}
+.form .button{
+    margin-top: 35px;
+}
+.form .button input{
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #4070f4;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button input:hover{
+    background-color: #333;
+}
+.form .login-signup{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.login-signup .txt{
+    color: #333;
+}
+.signup-text{
+text-decoration: none;
+color: #4070f4;
+}
+
+ .form-login .title{
+    margin-top: 30px;
+}
