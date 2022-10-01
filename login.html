@@ -4,18 +4,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login and Sign up</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
-    <div id="box">
-        <h1 >Login</h1>
-        <input  id="mail" type="text" placeholder="Email">
-        <br>
-        <input id="pass" type="text" placeholder="Password">
-        <br>
-        <button>Login</button>
-        <p>Forgot  <span>Password</span>?</p>
-        <p>Don't have an account? <span>sign up</span></p>
-    </div>
+    
+        <div class="container">
+            <div class="forms">
+                <div class="form login">
+                    <span class="title">SIGN IN</span>
+
+                    <form action="#">
+                        <div class="input-field">
+                            <input type="text" class="password" placeholder="Enter your email" required>
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+
+                        <div class="input-field">
+                            <input type="password" class="password" placeholder="Enter your password">
+                            <i class="fa-solid fa-lock showHidepw"></i>
+                        </div>
+
+                        <div class="checkbox">
+
+                            <a href="#" class="text">Forget your password?</a>
+                        </div>
+
+                        <div class="input-field button">
+                            <input type="button" value="login">
+                        </div>
+                    </form>
+
+                    <div class="login-signup">
+                      <span class="txt">Do'nt have an account?
+                        <a href="#" class="text signup-text"> Signup</a>
+                      </span>
+                         
+                    </div>
+
+                </div>
+
+                <!-- Restration form  -->
+
+
+                <div class="form login">
+                    <span class="title">Regestration</span>
+
+                    <form action="#">
+                        <div class="input-field">
+                            <input type="text" class="password" placeholder="Enter your name" required>
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" class="password" placeholder="Enter your email" required>
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+
+                        <div class="input-field">
+                            <input type="password" placeholder="Enter your password">
+                            <i class="fa-solid fa-lock"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" placeholder="Enter your password">
+                            <i class="fa-solid fa-lock"></i>
+                        </div>
+
+                        <div class="checkbox">
+
+                            <a href="#" class="text">Confirm your password!</a>
+                        </div>
+
+                        <div class="input-field button">
+                            <input type="button" value="Signup">
+                        </div>
+                    </form>
+
+                    <div class="login-signup">
+                      <span class="txt">Do'nt have an account?
+                        <a href="#" class="text login-text"> Signup</a>
+                      </span>
+                         
+                    </div>
+
+                </div>
+
+            </div>
+           
+           
+        </div>
+
+   
+
+   
 </body>
+<script src="login.js"></script>
 </html>
