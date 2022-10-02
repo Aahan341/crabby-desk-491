@@ -206,7 +206,7 @@ fruitsimage.forEach(function(el){
     let image=document.createElement("img");
     image.src=el.image_url;
 
-    let heading =document.createElement("h5")
+    let heading =document.createElement("h3")
     heading.innerText=el.name;
 
     let price=document.createElement("p");
