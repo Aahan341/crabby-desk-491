@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login and Sign up</title>
-    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
+
     <div id="startingpara">
         <p>Delivering in Mumbai, Delhi and Gurugram | Same day delivery!</p>
     </div>
@@ -37,58 +38,49 @@
       
     </div>
 
-       <!-- Login page here -->
-       <div class="container">
+
+    <!-- signup form here -->
+     <div class="container">
         <div class="forms">
-            <div class="form login">
-                <span class="title">SIGN IN</span>
+            
+            <div class="form login signupp">
+                <span class="title">Regestration</span>
 
                 <form action="#">
                     <div class="input-field">
-                        <input type="text" class="email" placeholder="Enter your email" required>
-                        <i class="fa-regular fa-envelope icon"></i>
+                        <input type="text" class="password" placeholder="Enter your name" required>
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" class="password" placeholder="Enter your email" required>
+                        <i class="fa-regular fa-envelope"></i>
                     </div>
 
                     <div class="input-field">
-                        <input type="text" class="password" placeholder="Enter your password">
-                        <i class="fa-solid fa-lock icon"></i>
-                        
+                        <input type="password" placeholder="Create your password">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" placeholder="Confirm your password">
+                        <i class="fa-solid fa-lock"></i>
                     </div>
 
-                    <div class="checkbox">
-                      
-                        <a href="#" class="text">Forgot your password?</a>
-                    </div>
+                    
 
                     <div class="input-field button">
-                        <input class="login" type="button" value="login">
+                        <input type="button" value="Signup">
                     </div>
                 </form>
 
                 <div class="login-signup">
-                  <span class="txt">Do'nt have an account?
-                    <a href="signup.html" class="text signup-link"> Signup</a>
+                  <span class="txt">Already have an account?
+                    <a href="login.html" class="text login-link">Login</a>
                   </span>
                      
                 </div>
 
             </div>
-
-
-
         </div>
-       
-       
-    </div>
-
-
-    
-
-   
- 
-   
-
-   
+     </div>
 </body>
-<script src="login.js"></script>
 </html>

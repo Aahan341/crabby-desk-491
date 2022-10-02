@@ -7,6 +7,7 @@
    
 
 }
+
 a{
     color: #1b1919;
     text-decoration: none;
@@ -41,4 +42,43 @@ gap: 20px;
 }
 #fruitsimage>div>img{
     width: 100%;
+    border-radius: 30px;
 }
+#fruitsimage>div>h5{
+    width: 90%;
+    text-align: center;
+}
+#fruitsimage>div>p{
+    color: #cd171f;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer{
+    display: flex;
+     width:100%;
+     height: 200px;
+     margin: auto;
+     margin-top: 40px;
+     margin-bottom: 70px;
+     background-color: #90b06e;
+ }
+ #footerfirstbox{
+ 
+ width: 50%;
+ margin: auto;
+ padding-left: 80px;
+ font-size: 20px;
+ }
+ #footer2box{
+     width: 50%;
+     margin-top: 50px;
+    
+ }
+ #spanfooter{
+    width: 90%;
+    margin: auto;
+     text-align: start;
+     background-color: #90b06e;
+ }
+ 
